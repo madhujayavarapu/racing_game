@@ -243,6 +243,7 @@ def gameLoop():
                         score -= 10
                         messageDisplay('-10', 35, display_width, 700, white)
                     else:
+			# score is 0 means we set that to 0 only..
                         score = 0
                         messageDisplay('-'+str(score), 35, display_width, 700, white)
 
